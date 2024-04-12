@@ -1,14 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int n,sum=1;
+    int n;
+    long long int sum=1;
     scanf("%d",&n);
     if (n==0)
-        printf("%d\n",sum);
+        printf("%lld\n",sum);
     else{
         for (int i=1;i<=n;i++)
             sum*=i;
-        printf("%d\n",sum);
+        printf("%lld\n",sum);
         }
         
 }
